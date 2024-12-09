@@ -1,0 +1,104 @@
+/* Container geral */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+  }
+  
+  /* Estilos do formulário */
+  .form-login {
+    width: 100%;
+    max-width: 400px;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  /* Input field */
+  .input-field {
+    position: relative;
+    margin: 20px 0;
+  }
+  
+  .input-field input {
+    width: 100%;
+    padding: 10px 40px 10px 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    transition: border-color 0.3s ease;
+  }
+  
+  .input-field input:focus {
+    border-color: #007bff;
+  }
+  
+  .input-field .icon {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    color: #ccc;
+  }
+  
+  /* Botão de envio */
+  button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Responsividade */
+  @media (max-width: 768px) {
+    .form-login {
+      padding: 15px;
+      max-width: 90%;
+    }
+  
+    .input-field input {
+      font-size: 14px;
+      padding: 8px 35px 8px 8px;
+    }
+  
+    button {
+      font-size: 14px;
+      padding: 8px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    h1 {
+      font-size: 20px;
+    }
+  
+    .form-login {
+      padding: 10px;
+    }
+  
+    .input-field input {
+      font-size: 12px;
+      padding: 6px 30px 6px 6px;
+    }
+  
+    button {
+      font-size: 12px;
+      padding: 6px;
+    }
+  }
+  
