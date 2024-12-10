@@ -1,6 +1,7 @@
 /* Estilo geral do navbar */
 .navbar {
-    width: 100%;
+    width: 100vw;
+    height: 50px;
     background-color: #333;
     color: white;
     padding: 10px 20px;
@@ -124,7 +125,7 @@
     .navbar-menu.show {
       display: flex;
       position: absolute;
-      top: 42px;
+      top: 50px;
       width: 100vw;
       margin: 0;
     }
